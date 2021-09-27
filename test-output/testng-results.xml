@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="5" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="3829" started-at="2021-09-21T12:39:06Z" finished-at="2021-09-21T12:39:10Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="3829" started-at="2021-09-21T12:39:06Z" finished-at="2021-09-21T12:39:10Z">
+      <class name="contactListApi.PositiveTests">
+        <test-method status="PASS" signature="addContact()[pri:0, instance:contactListApi.PositiveTests@4df50bcc]" name="addContact" duration-ms="2101" started-at="2021-09-21T12:39:06Z" description="Add Specific Contact" finished-at="2021-09-21T12:39:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addContact -->
+        <test-method status="PASS" signature="getcontact()[pri:0, instance:contactListApi.PositiveTests@4df50bcc]" name="getcontact" duration-ms="599" started-at="2021-09-21T12:39:09Z" description="getting Specific Contact" depends-on-methods="contactListApi.PositiveTests.addContact" finished-at="2021-09-21T12:39:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getcontact -->
+        <test-method status="PASS" signature="putcontact()[pri:0, instance:contactListApi.PositiveTests@4df50bcc]" name="putcontact" duration-ms="569" started-at="2021-09-21T12:39:09Z" description="updating Specific Contact" depends-on-methods="contactListApi.PositiveTests.getcontact" finished-at="2021-09-21T12:39:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putcontact -->
+        <test-method status="PASS" signature="deletecontact()[pri:0, instance:contactListApi.PositiveTests@4df50bcc]" name="deletecontact" duration-ms="537" started-at="2021-09-21T12:39:10Z" description="deleting Specific Contact" depends-on-methods="contactListApi.PositiveTests.putcontact" finished-at="2021-09-21T12:39:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletecontact -->
+      </class> <!-- contactListApi.PositiveTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
